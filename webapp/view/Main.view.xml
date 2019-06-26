@@ -13,7 +13,7 @@
 					<Input placeholder="Select Sub Category" showValueHelp="true" 
 						valueHelpRequest="f4SubCategory"  valueHelpOnly="true"
 						enabled="{=${SEL>/selMainCatId} !== undefined }"
-						value="{SEL>/selSubCatID}-{SEL>/selSubCatName}"
+						value="{SEL>/selSubCatId}-{SEL>/selSubCatName}"
 						> </Input>
 						
 					</content>

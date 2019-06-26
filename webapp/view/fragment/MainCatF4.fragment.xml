@@ -14,13 +14,13 @@
 		<columns>
 			<Column>
 				<header>
-					<Text text="Category Id"/>
+					<Text text="Id"/>
 				</header>
 			</Column>
 			
 				<Column>
 				<header>
-					<Text text="Category Name"/>
+					<Text text="Name"/>
 				</header>
 			</Column>
 		</columns>

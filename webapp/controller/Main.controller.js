@@ -79,7 +79,7 @@ sap.ui.define([
 					this.getView().getModel('SEL').setProperty('/selMainCatName',selData.CategoryName);
 					this.getView().getModel('SEL').setProperty('/selMainCatPath',selData.context);
 			}else if(this.currentF4==="SUB"){
-					this.getView().getModel('SEL').setProperty('/selSubCatId',selData.ProductNameID);
+					this.getView().getModel('SEL').setProperty('/selSubCatId',selData.ProductID);
 					this.getView().getModel('SEL').setProperty('/selSubCatName',selData.ProductName);
 					this.getView().getModel('SEL').setProperty('/selSubCatPath',selData.context);
 				

@@ -1,5 +1,5 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
-	<TableSelectDialog noDataText="No Categories Found" title="Select Main Category" 	confirm="onMainCatPress"
+	<TableSelectDialog noDataText="No Categories Found" title="Select" 	confirm="onMainCatPress"
 			items="{path:'/Categories/'}" >
 		<items>
 			<ColumnListItem detailPress="onMainCatPress" id="cliItem">

@@ -1,0 +1,24 @@
+<mvc:View controllerName="com.complihelp.f4help.controller.Main" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Input placeholder="Select Main Category" showValueHelp="true" 
+						valueHelpRequest="f4MainCategory"  valueHelpOnly="true"
+						value="{SEL>/selMainCatId}-{SEL>/selMainCatName} "
+						> </Input>
+						
+						
+					<Input placeholder="Select Sub Category" showValueHelp="true" 
+						valueHelpRequest="f4SubCategory"  valueHelpOnly="true"
+						enabled="{=${SEL>/selMainCatId} !== undefined }"
+						value="{SEL>/selSubCatID}-{SEL>/selSubCatName}"
+						> </Input>
+						
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
